@@ -6,6 +6,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('wizard');
+  this.route('summary');
 });
 
 export default Router;

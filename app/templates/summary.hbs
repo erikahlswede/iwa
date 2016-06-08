@@ -1,0 +1,14 @@
+<div class="row">
+  {{#each model as |answer|}}
+      <div class="col-md-6">
+          <div class="panel panel-success">
+              <div class="panel-heading">
+                  <h4>{{answer.question}}</h4>
+              </div>
+              <div class="panel-body">
+                {{answer.answer}}
+              </div>
+          </div>
+      </div>
+  {{/each}}
+</div>
